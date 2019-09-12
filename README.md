@@ -1,17 +1,30 @@
-# Project Title
+# Analyzing Top Music Data Throughout The Years
 
-One Paragraph of project description goes here
+Using Billboard Top 100 data set we analyze the music trends throughout the years.
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+```
+You will need 
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import scipy.stats as stats
+
+%matplotlib inline
+
+```
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Get Data Set from : https://data.world/kcmillersean/billboard-hot-100-1958-2017
+
 ```
 
 ### Installing
@@ -72,9 +85,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Rafael Perez** - *Initial work* - [Ironware](https://github.com/Ironware6)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
